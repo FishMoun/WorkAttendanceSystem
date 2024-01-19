@@ -1,0 +1,6 @@
+fronter/.vscode
+fronter/node_modules
+backend/.idea
+backend/_pycache_
+electron-app/node_modules
+electron-app/out

@@ -1,0 +1,18 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": "Jane Doe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "package":"electron-packager . demoName --platform=win32 --arch=x64 --icon=favicon.ico --out=./out --app-version=0.0.1 --overwrite --ignore=node_modules"
+  },
+  "devDependencies": {
+    "electron": "^28.1.4"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
